@@ -1,8 +1,16 @@
-# %%
+import sys
+import subprocess
+
+# --- AUTOMATIC ENGINE REPAIR ---
+# This forces Python to install openpyxl inside the correct active environment
+try:
+    import openpyxl
+except ImportError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "openpyxl"])
+
 import streamlit as st
 import pandas as pd
 import os
-import openpyxl
 from datetime import datetime
 
 # --- CONFIGURATION ---
