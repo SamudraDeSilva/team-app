@@ -8,11 +8,17 @@ from datetime import datetime
 EXCEL_FILE_PATH = r"C:\Users\SamudraDeSilva\Downloads\Application\team_daily_updates.xlsx"
 
 TEAM_STRUCTURE = {
-    "Dev Team": ["dev 1", "dev 2"],
-    "Team Alpha": ["ap 1", "ap 2"],
-    "Marketing Sync": ["mkt 1", "mkt 2"],
-    "Operations": ["ops 1", "ops 2"],
-    "Sales": ["sales 1", "sales 2"]
+    "TDU": ["Gang 1", "Gang 3", "Gang 4", "Gang 7", "Gang 19"],
+    "LEW": ["LEG 1", "LEG 2"],
+    "Lot B1": ["LEW CM & CS", "TDU"],
+    "BT": ["Team 5", "Team 6", "Team 7", "Team 8"],
+    "Drivers": ["Drivers"],
+    "Assitive Operations": ["Burning Assisting - Team 2", "Ultrasonic Maintenance (Lillie Bridge)", "Ultrasonic Maintenance (Edgeweare)"],
+    "AO - District Line": ["P&C Team 1", "P&C Team 2", "Re-Rail Team 3", "SS Faults Team"],
+    "AO - Jubilee Line": ["Re-Rail Team 3", "SS Faults Team"],
+    "AO - Nothern Line": ["Core P&C Team 1", "Core P&C Team 2", "Core Re-Rail Team 2", "SS Faults Team", "T002 L1 & L2", "Core Track Quality Team 1", "Core Track Quality Team 2"],
+    "AO - Picadaly Line": ["Core P&C Team", "Re-Rail Team", "Block Joints Team", "Safety Standards Team", "Core Track Quality Team", "Core Track Quality Team 1", "Upgrade Team"],
+    "Life Extension": ["Team 4", "Team 6"]
 }
 
 # Web page configuration optimized for desktop and mobile screens
