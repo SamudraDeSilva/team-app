@@ -1,13 +1,4 @@
-import sys
-import subprocess
-
-# --- AUTOMATIC ENGINE REPAIR ---
-# This forces Python to install openpyxl inside the correct active environment
-try:
-    import openpyxl
-except ImportError:
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "openpyxl"])
-
+#%%
 import streamlit as st
 import pandas as pd
 import os
@@ -15,7 +6,7 @@ from datetime import datetime
 
 # --- CONFIGURATION ---
 
-EXCEL_FILE_PATH = r"C:\Users\SamudraDeSilva\Downloads\Application\team_daily_updates.xlsx"
+EXCEL_FILE_PATH = r"C:\Users\SamudraDeSilva\OneDrive\Apps\team_daily_updates.xlsx"
 
 TEAM_STRUCTURE = {
     "TDU": ["Gang 1", "Gang 3", "Gang 4", "Gang 7", "Gang 19"],
